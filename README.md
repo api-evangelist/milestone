@@ -64,5 +64,112 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Milestone is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by heavybit) and added to the network as a stub for full-pipeline profiling.
-- https://www.mstone.ai
+Milestone AI provides a platform to measure AI spend, track engineering ROI, and manage AI agents across organizations. Their solution offers analytics, cost tracking, and performance insights to help businesses optimize AI investments and operational efficiency.
+
+**Areas:** AI Spend · Agent Governance · AI Productivity · AI Governance · KPI Dashboards
+
+## Milestone on APIs.io
+
+Everything profiled for Milestone is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/milestone/](https://apis.io/providers/milestone/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Milestone API](https://apis.io/apis/milestone/milestone-api/) — Milestone API as documented publicly: 8 operations. Contract generated from the documentation by API Evangelist (2026-10-29); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [GetReadyResponse](https://apis.io/schemas/milestone/milestone-get-ready-response/)
+- [GetStatusResponse](https://apis.io/schemas/milestone/milestone-get-status-response/)
+- [PostDeploymentsRequest](https://apis.io/schemas/milestone/milestone-post-deployments-request/)
+- [PostIdentityResourcesAuthV1ApiTokenRequest](https://apis.io/schemas/milestone/milestone-post-identity-resources-auth-v1-api-token-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Milestone Context](https://apis.io/jsonld/milestone/milestone-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Milestone API Rules](https://apis.io/rules/milestone/milestone-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Milestone Authentication](https://apis.io/security/milestone/milestone-authentication/)
+- [Milestone Domain Security](https://apis.io/security/milestone/milestone-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mstone.ai)
+- [Documentation](https://mstone.ai/docs/)
+- [Getting started](https://mstone.ai/docs/integration-instructions/gen-ai-coding-tools/Lite-LLM/litellm-direct-setup)
+- [Blog](https://mstone.ai/blog/)
+- [Terms of service](https://mstone.ai/terms-of-service/)
+- [Privacy policy](https://mstone.ai/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 41.2** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 49.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 21.1 |
+
+**Agent readiness 32.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/milestone/](https://apis.io/providers/milestone/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Milestone: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/milestone/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
